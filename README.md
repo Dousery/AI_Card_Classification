@@ -22,7 +22,7 @@ Convolutional Neural Network (CNN): Employs convolutional layers for automatic f
 Installation
 To run this project, ensure you have Python installed along with the necessary libraries:
 
-'''bash
+'''
 pip install numpy pandas matplotlib seaborn scikit-learn tensorflow keras
 '''
 
@@ -32,14 +32,14 @@ You'll also need the Kaggle API to download the dataset. Make sure your kaggle.j
 
 # Clone the Repository:
 
-'''bash
+'''
 git clone https://github.com/yourusername/playing-card-classification.git
 cd playing-card-classification
 '''
 
 # Download and Extract the Dataset:
 
-'''bash
+'''
 !mkdir -p ~/.kaggle
 !cp kaggle.json ~/.kaggle/
 !kaggle datasets download -d gpiosenka/cards-image-datasetclassification
