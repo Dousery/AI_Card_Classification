@@ -53,9 +53,3 @@ cd AI_Playing_Card_Classification
 !kaggle datasets download -d gpiosenka/cards-image-datasetclassification
 !unzip cards-image-datasetclassification.zip -d data/
 ```
-
-# Explore the Notebooks:
-Navigate to the notebooks directory and use the Jupyter notebooks to explore the dataset and experiment with models.
-
-# Train and Evaluate Models:
-Use scripts in the src directory to train and evaluate different models.
